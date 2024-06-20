@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 适配视口的宽度和初始缩放 -->
+    <title>一首钢琴曲</title> <!-- 设置网页标题 -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" /> <!-- 引入CSS重置样式表 -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" /> <!-- 引入布局样式表 -->
+    <link rel="shortcut icon" href="img/icon.ico" /> <!-- 设置网页图标 -->
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>一首钢琴曲</h1> 
+        </div>
+    </header>
+
+    <!-- 引入樱花飘零效果的JavaScript文件 -->
+    <script src="css/sakura.js"></script>
+
+    <!-- 视频采用div的弹性布局 -->
+    <div class="pa">
+        <h1>一首自己弹的钢琴曲~</h1>
+        <video autoplay controls width="600" height="400" src="img/piano.mp4"> <!-- 嵌入的视频，带控制栏 -->
+        </video>
+    </div>
+
+    <div class="pb">
+        <article>
+            <header>
+                <h1></h1>
+                <p>演奏日期：<time datetime="2023-11">2023-11-18</time></p> 
+            </header>
+
+            <section>
+                <h2>介绍</h2>
+                <p>这首《涙》是作品《あなたと過ごした七日間》中的一首钢琴曲，其温柔的曲调，平缓的起伏着，优美的琴音也缓缓萦绕在耳边，静静聆听着，感受着其中的温暖。</p> 
+            </section>
+
+            <footer>
+                <p>版权所有 &copy; 2024 何品臻</p> <!-- 版权声明 -->
+            </footer>
+        </article>
+    </div>
+
+    <aside>
+        <h2>钢琴曲谱</h2>
+        <p><img src="img/p1.jpg" width="400" height="200" alt="p1"></p>
+        <p><img src="img/p2.jpg" width="400" height="200" alt="p2"></p>
+        <p><button><a href="index.html">返回主页</a></button></p>
+    </aside>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+html, body, div, span, h1, h2, p, del, em, img, ins, ul, li, form, table, caption, thead, tr, article, aside, footer, menu, nav, section {
+    margin: 0; /* 去除默认外边距 */
+    padding: 0; /* 去除默认内边距 */
+    border: 0; /* 去除默认边框 */
+    outline: 0; /* 去除默认轮廓 */
+    font-size: 110%; /* 设置默认字体大小 */
+    vertical-align: baseline; /* 设置垂直对齐基线 */
+    background: transparent; /* 设置背景透明 */
+    font-weight: normal; /* 设置默认字体粗细 */
+}
+
+body {
+    line-height: 1; /* 设置默认行高 */
+}
+
+/* 设置 HTML5 新增标签的默认显示样式为块级元素 */
+article, aside, details, figure, footer, header, menu, nav, section {
+    display: block; /* 设置块级元素 */
+}
+
+/* 设置导航列表的样式 */
+nav ul {
+    list-style: none; /* 去除列表项前的默认样式 */
+}
+
+blockquote, q {
+    quotes: none; /* 去除默认引号 */
+}
+
+a {
+    margin: 0; /* 去除默认外边距 */
+    padding: 0; /* 去除默认内边距 */
+    font-size: 100%; /* 设置默认字体大小 */
+    vertical-align: baseline; /* 设置垂直对齐基线 */
+    background: transparent; /* 设置背景透明 */
+}
+
+/* 表格采用div的绝对定位布局 */
+.table-container {
+    position: absolute; /* 绝对定位容器 */
+    top: 50px; /* 距离顶部的位置 */
+    left: 50px; /* 距离左侧的位置 */
+    width: 1100px; /* 容器宽度 */
+    height: 800px; /* 容器高度 */
+    overflow: auto; /* 如果内容溢出，显示滚动条 */
+}
+
+table {
+    margin-left: 20px; /* 设置左外边距 */
+    margin-right: 20px; /* 设置右外边距 */
+    width: 100%; /* 设置表格宽度 */
+    border: thin solid black; /* 设置表格边框 */
+    caption-side: bottom; /* 设置表格标题位置 */
+    border-collapse: collapse; /* 设置表格边框折叠 */
+    border-spacing: 10px 30px; /* 设置表格单元格间距 */
+}
+
+td, th {
+    border: thin dotted gray; /* 设置单元格边框 */
+    padding: 5px; /* 设置单元格内边距 */
+}
+
+caption {
+    font-style: italic; /* 设置标题字体样式 */
+    padding-top: 8px; /* 设置标题上内边距 */
+}
+
+/* 设置单元格背景颜色 */
+.cellcolor {
+    background-color: #fcba7a; /* 设置背景颜色 */
+}
+
+hr {
+    display: block; /* 设置显示为块级元素 */
+    height: 1px; /* 设置高度 */
+    border: 0; /* 去除默认边框 */
+    border-top: 1px solid #cccccc; /* 设置顶部边框 */
+    margin: 1em 0; /* 设置上下外边距 */
+    padding: 0; /* 去除默认内边距 */
+}
+
+input, select {
+    vertical-align: middle; /* 设置垂直对齐中间 */
+}
+
+ul, ol {
+    list-style: none; /* 去除列表默认样式 */
+}
+
+iframe {
+    border: none; /* 去除默认边框 */
+}

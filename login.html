@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"> <!-- 设置字符编码为UTF-8 -->
+    <title>欢迎来到灰巡的小屋</title> <!-- 设置网页标题 -->
+    <link rel="shortcut icon" href="img/icon.ico" /> <!-- 设置网页图标 -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" /> <!-- 引入布局样式表 -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- 引入样式表 -->
+  </head>
+  <body>
+
+    <h1>欢迎来到灰巡的小屋</h1> <!-- 网页主标题 -->
+    
+    <!-- 引入樱花飘零效果的JavaScript文件 -->
+    <script src="css/sakura.js"></script>
+
+    <!-- 表单采用网格分布和部分表格分布 -->
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>请填写下列信息以进入访问</legend> <!-- 表单标题 -->
+
+        <div class="tb">
+          <label for="beans">是否为本校师生:</label>
+          <select id="beans" name="beans">
+            <option value="yes">是</option>
+            <option value="no">否</option>
+          </select>
+        </div>
+
+        <div class="tb">
+          <label>性别:</label>
+          <p>
+            <input type="radio" id="ground_beantype" name="beantype" value="ground" checked>
+            <label for="ground_beantype">男</label>
+            <input type="radio" id="whole_beantype" name="beantype" value="whole">
+            <label for="whole_beantype">女</label>
+          </p>
+        </div>
+
+        <div class="tb">
+          <label for="name">姓名:</label>
+          <input type="text" id="name" name="name" value="" placeholder="何品臻">
+        </div>
+
+        <div class="tb">
+          <label for="class">学号:</label>
+          <input type="text" id="number" name="number" value="" placeholder="202221130122">
+        </div>
+
+        <div class="tb">
+          <label for="class">班级:</label>
+          <input type="text" id="class" name="class" value="" placeholder="信管2202">
+        </div>
+
+        <div class="tb">
+          <label for="college">院系:</label>
+          <input type="text" id="college" name="college" value="" placeholder="信息工程学院">
+        </div>
+
+        <div class="tb">
+          <label for="comments">留言:</label>
+          <textarea id="comments" name="comments" value="" placeholder="这是何品臻同学的一份web前端期末作业捏"></textarea>
+        </div>
+
+        <!-- 提交按钮 -->
+        <div class="tb">
+          <label></label>
+          <button><a href="index.html">进入</a></button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
